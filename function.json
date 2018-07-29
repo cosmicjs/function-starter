@@ -2,6 +2,7 @@
   "title": "Function Starter",
   "description": "Cosmic JS Function starter.",
   "image_url": "https://cosmicjs.com/images/marketing/logo-w-brand.jpg",
+  "repo_url": "https://github.com/cosmicjs/function-starter",
   "env_vars": [
     {
       "key": "CUSTOM_MESSAGE",

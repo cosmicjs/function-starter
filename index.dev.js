@@ -7,28 +7,40 @@ const PORT = process.env.PORT || 3000
 routes.forEach(route => {
   if (route.method === 'get') {
     app.get('/' + route.path, (req, res) => {
-      handler(req, null, (err, response) => {
+      const event = {
+        body: JSON.stringify(req.body)
+      }
+      handler(event, null, (err, response) => {
         res.send(response.body)
       })
     })
   }
   if (route.method === 'post') {
     app.post('/' + route.path, (req, res) => {
-      handler(req, null, (err, response) => {
+      const event = {
+        body: JSON.stringify(req.body)
+      }
+      handler(event, null, (err, response) => {
         res.send(response.body)
       })
     })
   }
   if (route.method === 'put') {
     app.put('/' + route.path, (req, res) => {
-      handler(req, null, (err, response) => {
+      const event = {
+        body: JSON.stringify(req.body)
+      }
+      handler(event, null, (err, response) => {
         res.send(response.body)
       })
     })
   }
   if (route.method === 'delete') {
     app.del('/' + route.path, (req, res) => {
-      handler(req, null, (err, response) => {
+      const event = {
+        body: JSON.stringify(req.body)
+      }
+      handler(event, null, (err, response) => {
         res.send(response.body)
       })
     })

@@ -8,12 +8,12 @@ A Cosmic JS Function Starter
 #### function.json file properties
 Key | Type | Description
 --- | --- | ---
-| title     | string | Function title
-| description      | string | Function description (HTML allowed)
-| image_url      | string | Image thumbnail
-| repo_url      | string | Function git repo url
-| env_vars      | array | key / value for environment variables
-| routes      | array | Function routes: properties include path (string), method (string) and cors (bool)
+| title     | String | Function title
+| description      | String | Function description (HTML allowed)
+| image_url      | String | Image thumbnail
+| repo_url      | String | Function git repo url
+| env_vars      | Array | key / value for environment variables
+| routes      | Array | Function routes: properties include path (string), method (string) and cors (bool)
 
 Example `function.json` file:
 ```json

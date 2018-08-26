@@ -1,6 +1,13 @@
 # Function Starter
 A Cosmic JS Function Starter
 
+### Getting Started
+```
+git clone https://github.com/cosmicjs/function-starter
+cd function-starter
+npm run develop
+```
+
 ### Installation
 1. [Login to Cosmic JS](https://cosmicjs.com) and go to Your Bucket > Settings > Functions > Upload Function
 2. Add the link to this repo: `https://github.com/cosmicjs/function-starter` and click "Install Function"

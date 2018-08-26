@@ -4,7 +4,7 @@ module.exports.handler = (event, context, callback) => {
     headers: {
       'Access-Control-Allow-Origin': '*',
     },
-    body: 'Hello world! Custom message: ' + process.env.CUSTOM_MESSAGE
+    body: 'Hello world! Custom message: ' + process.env.CUSTOM_MESSAGE + ' Event body: ' + JSON.stringify(event.body)
   };
   callback(null, response);
 }

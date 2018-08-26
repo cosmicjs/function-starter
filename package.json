@@ -1,0 +1,22 @@
+{
+  "name": "function-starter",
+  "version": "1.0.0",
+  "description": "A Cosmic JS Function Starter",
+  "main": "index.js",
+  "scripts": {
+    "develop": "node index.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmicjs/function-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cosmicjs/function-starter/issues"
+  },
+  "homepage": "https://github.com/cosmicjs/function-starter#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

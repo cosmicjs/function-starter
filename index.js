@@ -3,8 +3,9 @@ module.exports.handler = (event, context, callback) => {
     statusCode: 200,
     headers: {
       'Access-Control-Allow-Origin': '*',
+      'Content-Type': 'text/plain'
     },
-    body: 'Hello world! Custom message: ' + process.env.CUSTOM_MESSAGE + ' Event body: ' + event.body
+    body: 'Hello world! Custom message: ' + process.env.CUSTOM_MESSAGE + ' Event body: ' + (event ? event.body : null)
   };
   callback(null, response);
 }

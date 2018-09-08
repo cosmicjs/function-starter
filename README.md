@@ -10,7 +10,7 @@ npm run develop
 ```
 
 ### Installation
-1. [Login to Cosmic JS](https://cosmicjs.com) and go to Your Bucket > Settings > Functions > Upload Function
+1. [Login to Cosmic JS](https://cosmicjs.com) and go to Your Bucket > Settings > Functions
 2. Add the link to this repo: `https://github.com/cosmicjs/function-starter` and click "Install Function"
 
 #### function.json file properties

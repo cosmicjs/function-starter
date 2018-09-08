@@ -1,5 +1,5 @@
 # Function Starter
-A Cosmic JS Function Starter
+Cosmic JS Function Starter.
 
 ### Getting Started
 You can run this Function locally for development:

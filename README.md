@@ -6,6 +6,7 @@ You can run this Function locally for development:
 ```
 git clone https://github.com/cosmicjs/function-starter
 cd function-starter
+npm install
 npm run develop
 ```
 
